@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Flex display="flex" direction="row" align="end" justify="space-between">
       {/* <SchoolOfCodeLogo autoStart={true} loop={true} /> */}
-      <SVGComponent />
+      <img src="./assets/logo.svg" />
       {/* <ConnectButton chainStatus="icon" showBalance={false} /> */}
     </Flex>
   )
