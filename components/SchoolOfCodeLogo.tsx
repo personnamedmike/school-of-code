@@ -64,7 +64,7 @@ const SchoolOfCodeLogo: NextPage<SchoolOfCodeLogoProps> = ({
   `
   const eyeKeyframes = keyframes`
     from { transform: scale(1,1); }
-    to   { transform: scale(1,0.1); top 80%; }
+    to   { transform: scale(1,0.1); top: 80%; }
   `
   const cursorAnimation = `${cursorKeyframes} .6s infinite`
   const eyeAnimation = `${eyeKeyframes} ${
